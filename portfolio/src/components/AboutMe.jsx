@@ -1,1 +1,0 @@
-// About me should contain a recent photo and short bio

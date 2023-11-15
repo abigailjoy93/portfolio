@@ -1,1 +1,0 @@
-// Header should contain Name and titles to corresponding sections
