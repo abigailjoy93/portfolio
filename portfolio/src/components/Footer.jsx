@@ -1,1 +1,0 @@
-// Display icons that link to GitHub, LinkedIn, and a third platform
