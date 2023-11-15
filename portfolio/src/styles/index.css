@@ -3,9 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --main: #d6ffeb;
+  --dark: #008585;
+  --light: #f6fff6;
+  --textmain: #003b3b;
+  --textlight: #c3e0c3;
+  background-color: var(--main);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,11 +19,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: (var(--textmain));
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--textlight);
 }
 
 body {
@@ -36,6 +39,18 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h3:hover {
+  color: var(--textlight);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -48,7 +63,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--dark);
 }
 button:focus,
 button:focus-visible {
@@ -57,13 +72,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: var(--dark);
+    background-color: var(--light);
   }
   a:hover {
-    color: #747bff;
+    color: var(--dark);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--main);
   }
 }
