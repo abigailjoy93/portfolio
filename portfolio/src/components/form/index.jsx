@@ -59,20 +59,6 @@ function Form() {
     }
   };
 
-  // adding event listeners to alert the user if they click out of a required field
-  document.getElementById("firstName").addEventListener("blur", function () {
-    validateForm();
-  });
-  document.getElementById("lastName").addEventListener("blur", function () {
-    validateForm();
-  });
-  document.getElementById("email").addEventListener("blur", function () {
-    validateForm();
-  });
-  document.getElementById("message").addEventListener("blur", function () {
-    validateForm();
-  });
-
   // prevents the page from reloading when the form is submiited
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -91,7 +77,7 @@ function Form() {
         <input value={firstName} name="firstName" onChange={handleInputChange} type="text" placeholder="First Name" />
         <input value={lastName} name="lastName" onChange={handleInputChange} type="text" placeholder="Last Name" />
         <input value={email} name="email" onChange={handleInputChange} type="text" placeholder="Email Address" />
-        <input value={message} name="message" onChange={handleInputChange} type="text" placeholder="Please leave a brief message here." />
+        <textarea value={message} name="message" onChange={handleInputChange} type="text" placeholder="Please leave a brief message here."></textarea>
         <button className="submitButton" type="submit">
           Submit
         </button>

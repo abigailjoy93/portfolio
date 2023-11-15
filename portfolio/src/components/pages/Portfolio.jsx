@@ -10,57 +10,57 @@ function Portfolio() {
   return (
     <div>
       <section className="project">
-        <h3>CSS Cheatsheet</h3>
+        <h2>CSS Cheatsheet</h2>
         <a href="https://github.com/abigailjoy93/css-application">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/css-application/">
-          <img src={projectOne}></img>
+          <img src={projectOne} style={{ width: "27%" }}></img>
         </a>
       </section>
       <section className="project">
-        <h3>HTML and CSS-Based Portfolio</h3>
+        <h2>HTML and CSS-Based Portfolio</h2>
         <a href="https://github.com/abigailjoy93/Week2-Portfolio">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/Week2-Portfolio/">
-          <img src={projectTwo}></img>
+          <img src={projectTwo} style={{ width: "27%" }}></img>
         </a>
       </section>
       <section className="project">
-        <h3>Password Generator</h3>
+        <h2>Password Generator</h2>
         <a href="https://github.com/abigailjoy93/passwordgenerator">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/passwordgenerator/">
-          <img src={projectThree}></img>
+          <img src={projectThree} style={{ width: "27%" }}></img>
         </a>
       </section>
       <section className="project">
-        <h3>Plant Search</h3>
+        <h2>Plant Search</h2>
         <a href="https://github.com/abigailjoy93/plant-search-project">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/plant-search-project/">
-          <img src={projectFour}></img>
+          <img src={projectFour} style={{ width: "27%" }}></img>
         </a>
       </section>
       <section className="project">
-        <h3>Prework Study Guide</h3>
+        <h2>Prework Study Guide</h2>
         <a href="https://github.com/abigailjoy93/prework-study-guide">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/prework-study-guide/">
-          <img src={projectFive}></img>
+          <img src={projectFive} style={{ width: "27%" }}></img>
         </a>
       </section>
       <section className="project">
-        <h3>Forecast App</h3>
+        <h2>Forecast App</h2>
         <a href="https://github.com/abigailjoy93/Forecast-Application">
-          <h4>GitHub Repo</h4>
+          <h3>GitHub Repo</h3>
         </a>
         <a href="https://abigailjoy93.github.io/Forecast-Application/">
-          <img src={projectSix}></img>
+          <img src={projectSix} style={{ width: "27%" }}></img>
         </a>
       </section>
     </div>

@@ -3,10 +3,10 @@ import photoSelf from "../../assets/me.jpeg";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="AboutMe" style={{ textAlign: "center" }}>
       <h1>About Me</h1>
-      <img src={photoSelf}></img>
-      <p>About me blurb</p>
+      <img src={photoSelf} style={{ width: "25%" }}></img>
+      <p style={{ fontSize: "25px" }}>About me blurb</p>
     </div>
   );
 }
